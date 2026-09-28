@@ -1,0 +1,76 @@
+# ==============================================================================
+# Climate-PDE: .gitignore for Publication Repository
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables & API credentials (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Operating System artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Editor & temporary backup files
+*.bak
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# IDE & workspace configurations
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.kilo/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Publisher templates (reference files)
+templates/
+CAGEO_LaTeXTemplate/
+CAGEO_official_WordTemplate.docx
+CAGEO_official_WordTemplate.pdf
+
+# Large binary datasets (archived on Zenodo: https://doi.org/10.5281/zenodo.20805499)
+data/**/*.nc
+data/*.nc
+data/era5/*.nc
+data/modis/*.nc
+data/modis_monthly/*.nc
+data/chirps/*.nc
+data/chirps/raw_yearly/*.nc
+archive/**/data/*.nc

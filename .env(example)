@@ -1,0 +1,8 @@
+# NASA Earthdata credentials
+# Register at https://urs.earthdata.nasa.gov/
+username = your_email@example.com
+password = your_password
+
+# Copernicus CDS API credentials
+cds_url =  https://cds.climate.copernicus.eu/api
+cds_key = your_apikey
