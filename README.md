@@ -82,6 +82,7 @@ pip install -r requirements.txt
 
 Download the unified dataset `climate_multivariate.nc` (296 MB) from Zenodo:
 * **DOI:** [10.5281/zenodo.20805499](https://doi.org/10.5281/zenodo.20805499)
+* **FAIR Data Page:** [https://zenodo.org/records/20805499](https://zenodo.org/records/20805499)
 * Place the file into the `data/` directory:
   ```bash
   mkdir -p data
@@ -131,7 +132,8 @@ All scripts should be executed from the **project root directory**:
 | **MODIS Terra/Aqua** | NASA EOSDIS LP DAAC | Land Surface Temp (Day/Night) | 0.05° CMG | 2000–2023 | Wan et al. (2021) |
 
 The complete harmonized dataset is archived on Zenodo:  
-**Zenodo Record:** [https://doi.org/10.5281/zenodo.20805499](https://doi.org/10.5281/zenodo.20805499)
+* **Persistent DOI:** [https://doi.org/10.5281/zenodo.20805499](https://doi.org/10.5281/zenodo.20805499)  
+* **FAIR Data Page:** [https://zenodo.org/records/20805499](https://zenodo.org/records/20805499)
 
 ---
 
